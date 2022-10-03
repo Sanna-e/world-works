@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <head>
+    <title>Project</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <h1 id="title">The way of the world.</h1>
+      <p id="description">Hello, and welcome. Please fill out all boxes.</p>
+      <form id="survey-form">
+        <fieldset>
+        <label for="name" id="name-label" placeholder="Jane Doe">Enter name, first and last: <input id="name" type="text" required> </label>
+        </fieldset>
+        <fieldset>
+        <label for="email" id="email-label" placeholder="example@gmail.com">Please type in your email: <input id="email" type="email" required> </label>
+        </fieldset>
+        <fieldset>
+        <label for="number">Your age: <input id="number" type="number" min="0" max="200"> </label>
+        </fieldset>
+        <fieldset>
+        <label id="dropdown">Sweet dreams are made of ______?
+        <select id="dropdown" type="dropdown">
+        <option value="this">this</option>
+        <option value="these">these</option>
+        <option value="cheese">cheese</option>
+        </select>
+        </label>
+        </fieldset>
+        <fieldset>
+        <label>Who am ____ to disagree?</label>
+        <div class="you">
+        <label id="you" value="you" name="answer">you</label>
+        <input type="radio" name="answer" value="you">
+        </div>
+        <div class="I">
+        <label id="I" name="answer">I</label>
+        <input type="radio" id="I" value="I" name="answer">
+        </div>
+        </fieldset>
+        <fieldset>
+          <label id="7seas">I travel the world and the _____?</label>
+          <label id="7seas" name="choice">
+          <input type="checkbox" name="choice" id="7seas" value="7seas">7 seas
+          </label>
+          <label id="new world">
+            <input type="checkbox" for="new-world" name="choice" value="new-world">New World
+          </label>
+        </fieldset>
+        <fieldset>
+          <label id="looking">Everybody's looking for______?
+            <textarea id="something" rows="3" cols="30"> </textarea>
+          </label>
+        </fieldset>
+        <input type="submit" value="Submit">
+      </form>
+      </div>
+      <script src="script.js"></script>
+  </body>
+</html>
