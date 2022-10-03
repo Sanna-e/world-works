@@ -1,0 +1,17 @@
+body{
+  padding: 25px;
+  background-color: #887799; 
+  margin-top:2em auto;
+  margin-bottom: 2em auto;
+  margin-left: 2em auto;
+  margin-right: 2em auto;
+}
+.title {
+}
+
+div {
+text-align: center;
+background-color: #C5C6D0;
+width: 100%;
+padding: 2px;
+}
